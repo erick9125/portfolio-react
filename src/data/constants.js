@@ -141,16 +141,16 @@ export const Bio = {
           image:
             "https://www.pngall.com/wp-content/uploads/11/CPanel-PNG-Pic.png",
         },
-      ],
-    },
-    {
-      title: "Others",
-      skills: [
         {
           name: "Linux",
           image:
             "https://cdn.icon-icons.com/icons2/1159/PNG/256/linux_81610.png",
         },
+      ],
+    },
+    {
+      title: "Others",
+      skills: [
         {
           name: "Git",
           image:
@@ -289,31 +289,14 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-      date: "Oct 2021 - Sep 2025",
-      grade: "8.71 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+      img: "https://www.duoc.cl/wp-content/uploads/2021/03/logos_sedesv1-24.png",
+      school: "Duoc UC",
+      date: "Mar 2017 - Julio 2020",
+      grade: "5.8",
+      desc: "Titulado de Analista Programador en el instituto Duoc UC en el año 2020 en la sede Padre Alonso de Ovalle, Santiago de Chile.",
+      degree: "Analista Programador Computacional",
     },
-    {
-      id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2019 - Apr 2025",
-      grade: "88.2%",
-      desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-      degree: "ISC(XII), Science with Computer",
-    },
-    {
-      id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2017 - Apr 2019",
-      grade: "92.3%",
-      desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-      degree: "ICSC(X), Science with Computer",
-    },
+
   ];
   
   export const projects = [
