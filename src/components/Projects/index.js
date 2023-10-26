@@ -5,16 +5,17 @@ import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
 
 
-const Projects = ({openModal,setOpenModal}) => {
+const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState('all');
   return (
     <Container id="projects">
       <Wrapper>
         <Title>Proyectos</Title>
         <Desc>
-          Dejo algunos proyectos realizados en varios lenguajes y técnologias.
+          Dejo algunos proyectos realizados en varios lenguajes y tecnologías.
         </Desc>
-        <ToggleButtonGroup >
+        {/* Comentario: Sección de ToggleButtonGroup */}
+        {/* <ToggleButtonGroup >
           {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>Todos</ToggleButton>
             :
@@ -38,7 +39,8 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
           }
-        </ToggleButtonGroup>
+        </ToggleButtonGroup> */}
+        {/* Fin de la sección de ToggleButtonGroup */}
         <CardContainer>
           {toggle === 'all' && projects
             .map((project) => (
