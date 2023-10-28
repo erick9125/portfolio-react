@@ -308,10 +308,29 @@ export const Bio = {
       description:
         "Clásico juego de 3 en raya o Tic Tac Toe en inglés, hecho en ReactJS a modo de aprendizaje",
       image:"https://i.postimg.cc/MK2Qn51w/tic-tac-toe.png",
-      tags: ["React Js"],
+      tags: ["React Js","CSS"],
       category: "web app",
       github: "https://github.com/erick9125/tic-tac-toe-react",
       webapp: "https://erick9125.github.io/tic-tac-toe-react/build/",
+      member: [
+        {
+          name: "Erick Morales",
+          img: "https://avatars.githubusercontent.com/u/44293951?v=4",
+          linkedin: "www.linkedin.com/in/erick-morales-severino",
+          github: "https://github.com/erick9125/",
+        }
+      ],
+    },
+    {
+      id: 1,
+      title: "Pokedex",
+      date: "Oct 2023",
+      description:
+        "Pokedex hecha en React JS y Vite, consumiendo el api POKEAPI, la aplicación implementa Routes, Filtros y buscador",
+      image:"https://i.postimg.cc/sxhnk6BJ/pokedex.png",
+      tags: ["React Js", "Vite","Routes","CSS","API"],
+      category: "web app",
+      github: "https://github.com/erick9125/pokedex-react",
       member: [
         {
           name: "Erick Morales",

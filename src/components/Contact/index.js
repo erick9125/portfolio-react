@@ -142,7 +142,7 @@ const Contact = () => {
 
 
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
         <Title>Contacto</Title>
         <Desc>Puedes contactarme mediante correo en el siguiente formulario!</Desc>
