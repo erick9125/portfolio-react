@@ -326,11 +326,30 @@ export const Bio = {
       title: "Pokedex",
       date: "Oct 2023",
       description:
-        "Pokedex hecha en React JS y Vite, consumiendo el api POKEAPI, la aplicación implementa Routes, Filtros y buscador",
+        "Pokedex hecha en React JS y Vite, consumiendo la API POKEAPI, la aplicación implementa Routes, Filtros y buscador",
       image:"https://i.postimg.cc/sxhnk6BJ/pokedex.png",
       tags: ["React Js", "Vite","Routes","CSS","API"],
       category: "web app",
       github: "https://github.com/erick9125/pokedex-react",
+      member: [
+        {
+          name: "Erick Morales",
+          img: "https://avatars.githubusercontent.com/u/44293951?v=4",
+          linkedin: "www.linkedin.com/in/erick-morales-severino",
+          github: "https://github.com/erick9125/",
+        }
+      ],
+    },
+    {
+      id: 2,
+      title: "Aplicación del clima",
+      date: "Oct 2023",
+      description:
+        "Aplicación simple del clima hecha en una simple page de VueJS, consumiendo la API de Open Weather",
+      image:"https://i.postimg.cc/vHMwdQSJ/weather-app.png",
+      tags: ["Vue Js","CSS","API"],
+      category: "web app",
+      github: "https://github.com/erick9125/vue-weather-app",
       member: [
         {
           name: "Erick Morales",
