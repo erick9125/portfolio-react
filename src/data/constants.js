@@ -359,6 +359,63 @@ export const Bio = {
         }
       ],
     },
+    {
+      id: 3,
+      title: "Sistema de inventario",
+      date: "Abr 2019",
+      description:
+        "Sistema de inventario basado en Python y framework Django, con implementación de CRUD y login con firebase",
+      image:"https://i.postimg.cc/TPXQ2jQN/inventario1.jpg",
+      tags: ["Python","Django","Firebase"],
+      category: "web app",
+      github: "https://github.com/erick9125/Sistema-de-inventario",
+      member: [
+        {
+          name: "Erick Morales",
+          img: "https://avatars.githubusercontent.com/u/44293951?v=4",
+          linkedin: "www.linkedin.com/in/erick-morales-severino",
+          github: "https://github.com/erick9125/",
+        }
+      ],
+    },
+    {
+      id: 4,
+      title: "Administración de enlaces favoritos",
+      date: "Jun 2019",
+      description:
+        "Proyecto con NodeJS conexión a base de datos MySQL, se implementa adicional Express, Morgan, CRUD en NodeJS",
+      image:"https://i.postimg.cc/J0ntKHq5/Node-JS-links.jpg",
+      tags: ["Node JS","Express","Morgan","MySQL"],
+      category: "web app",
+      github: "https://github.com/erick9125/NodeJS-y-MySQL",
+      member: [
+        {
+          name: "Erick Morales",
+          img: "https://avatars.githubusercontent.com/u/44293951?v=4",
+          linkedin: "www.linkedin.com/in/erick-morales-severino",
+          github: "https://github.com/erick9125/",
+        }
+      ],
+    },
+    {
+      id: 5,
+      title: "Tienda de Libros",
+      date: "May 2019",
+      description:
+        "Proyecto con Angular 7, jquery, bootstrap 4, Firebase, Login con facebook y google, CRUD",
+      image:"https://i.postimg.cc/3xwLvmqJ/libreria3.png",
+      tags: ["Angular","JQuery","Bootstrap","Firebase"],
+      category: "web app",
+      github: "https://github.com/erick9125/Tienda-de-libros-con-Angular-7",
+      member: [
+        {
+          name: "Erick Morales",
+          img: "https://avatars.githubusercontent.com/u/44293951?v=4",
+          linkedin: "www.linkedin.com/in/erick-morales-severino",
+          github: "https://github.com/erick9125/",
+        }
+      ],
+    },
     
   ];
   
